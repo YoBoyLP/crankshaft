@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "release",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"label": "npm: release",
+			"detail": "pnpm run build && electron-builder --publish always"
+		}
+	]
+}
